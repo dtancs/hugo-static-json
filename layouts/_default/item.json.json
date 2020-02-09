@@ -1,0 +1,5 @@
+{
+    "title": "{{ .Title }}",
+    "date": "{{ .Params.date }}",
+    "slug": "{{ .File.Dir }}{{ .File.BaseFileName }}"
+}
